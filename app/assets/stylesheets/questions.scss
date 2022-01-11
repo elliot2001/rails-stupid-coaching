@@ -1,0 +1,29 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  padding: 0 30px;
+}
+
+input[type="text"] {
+  width: 260px;
+}
+
+input[type="submit"] {
+  margin-left: -5px;
+}
+
+.answer {
+  border-left: 3px solid grey;
+  padding-left: 10px;
+}
+
+.answer.coach {
+  background-color: palegoldenrod;
+}
+
+.signature {
+  font-style: italic;
+}
